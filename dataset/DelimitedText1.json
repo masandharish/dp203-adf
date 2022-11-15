@@ -10,7 +10,8 @@
 		"typeProperties": {
 			"location": {
 				"type": "AmazonS3Location",
-				"bucketName": "bucket-dp203"
+				"bucketName": "bucket-dp203",
+				"fileName": "moviesDB.csv"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
