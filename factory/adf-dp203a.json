@@ -1,0 +1,9 @@
+{
+	"name": "adf-dp203a",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "5544e233-abfe-499e-a635-e1bd8e8a813d",
+		"tenantId": "7e1d01f0-aa15-4ffb-b423-8a73b3ae186e"
+	}
+}
