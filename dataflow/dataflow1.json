@@ -1,0 +1,33 @@
+{
+	"name": "dataflow1",
+	"properties": {
+		"type": "MappingDataFlow",
+		"typeProperties": {
+			"sources": [
+				{
+					"dataset": {
+						"referenceName": "DelimitedText1",
+						"type": "DatasetReference"
+					},
+					"name": "MoviesADLS",
+					"description": "Movies File"
+				}
+			],
+			"sinks": [],
+			"transformations": [],
+			"scriptLines": [
+				"source(output(",
+				"          {108583} as string,",
+				"          {Fawlty Towers (1975} as string,",
+				"          Comedy as string,",
+				"          {-1980} as string,",
+				"          {1} as string,",
+				"          {54} as string",
+				"     ),",
+				"     allowSchemaDrift: true,",
+				"     validateSchema: false,",
+				"     ignoreNoFilesFound: false) ~> MoviesADLS"
+			]
+		}
+	}
+}
