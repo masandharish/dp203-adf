@@ -6,27 +6,26 @@
 			"sources": [
 				{
 					"dataset": {
-						"referenceName": "DelimitedText1",
+						"referenceName": "DelimitedText2",
 						"type": "DatasetReference"
 					},
-					"name": "MoviesADLS",
-					"description": "Movies File"
+					"name": "moviesDB"
 				}
 			],
 			"sinks": [],
 			"transformations": [],
 			"scriptLines": [
 				"source(output(",
-				"          {108583} as string,",
-				"          {Fawlty Towers (1975} as string,",
-				"          Comedy as string,",
-				"          {-1980} as string,",
-				"          {1} as string,",
-				"          {54} as string",
+				"          Column_1 as string,",
+				"          Column_2 as string,",
+				"          Column_3 as string,",
+				"          Column_4 as string,",
+				"          Column_5 as string,",
+				"          Column_6 as string",
 				"     ),",
 				"     allowSchemaDrift: true,",
 				"     validateSchema: false,",
-				"     ignoreNoFilesFound: false) ~> MoviesADLS"
+				"     ignoreNoFilesFound: false) ~> moviesDB"
 			]
 		}
 	}

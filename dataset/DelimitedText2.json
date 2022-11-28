@@ -1,5 +1,5 @@
 {
-	"name": "DelimitedText1",
+	"name": "DelimitedText2",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureBlobStorage1",
@@ -20,27 +20,21 @@
 		},
 		"schema": [
 			{
-				"name": "108583",
 				"type": "String"
 			},
 			{
-				"name": "Fawlty Towers (1975",
 				"type": "String"
 			},
 			{
-				"name": "Comedy",
 				"type": "String"
 			},
 			{
-				"name": "-1980",
 				"type": "String"
 			},
 			{
-				"name": "1",
 				"type": "String"
 			},
 			{
-				"name": "54",
 				"type": "String"
 			}
 		]
